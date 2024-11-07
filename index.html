@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختصار الروابط</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>موقع اختصار الروابط</h1>
+    </header>
+
+    <section id="link-shortener">
+        <input type="text" id="original-link" placeholder="أدخل الرابط هنا" aria-label="رابط">
+        <button onclick="shortenLink()">اختصر الرابط</button>
+        <div id="shortened-link-container" style="display: none;">
+            <p>رابطك المختصر:</p>
+            <a id="shortened-link" href="#" target="_blank">افتح الرابط المختصر</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
